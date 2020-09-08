@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "boundLiterals": {
+        "__out__": "D2"
+      },
+      "description": "Board port number.",
+      "id": "BJDWdErVP",
+      "label": "PORT",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -5
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "description": "One Wire Bus.",
+      "id": "rJSzu4rVv",
+      "label": "OWB",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -3
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "id": "rkKIP4rEw",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -4
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

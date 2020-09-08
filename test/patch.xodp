@@ -1,0 +1,35 @@
+{
+  "links": [
+    {
+      "id": "H1awYVH4w",
+      "input": {
+        "nodeId": "S13PtESVw",
+        "pinKey": "ryJkYVHNP"
+      },
+      "output": {
+        "nodeId": "HkRX_4rNv",
+        "pinKey": "rJSzu4rVv"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "HkRX_4rNv",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "@/one-wire-bus"
+    },
+    {
+      "id": "S13PtESVw",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "@/ds18b20-devices"
+    }
+  ]
+}

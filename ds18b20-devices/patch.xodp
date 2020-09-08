@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "description": "Data type representing one of more",
+      "id": "HJTMXNrVv",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -6
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "description": "All ds18b20 devices on a single bus.",
+      "id": "rJF4DQrEw",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -7
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "One Wire Bus.",
+      "id": "ryJkYVHNP",
+      "label": "OWB",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -8
+      },
+      "type": "@/input-one-wire-bus"
+    }
+  ]
+}
