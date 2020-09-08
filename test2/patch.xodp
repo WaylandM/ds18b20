@@ -1,32 +1,32 @@
 {
   "links": [
     {
-      "id": "H1awYVH4w",
+      "id": "HkFOStSNw",
       "input": {
-        "nodeId": "S13PtESVw",
-        "pinKey": "ryJkYVHNP"
+        "nodeId": "rJQrrtBED",
+        "pinKey": "ry9wHtrEv"
       },
       "output": {
-        "nodeId": "HkRX_4rNv",
-        "pinKey": "rJSzu4rVv"
+        "nodeId": "SyD4hOSEw",
+        "pinKey": "BJGPo_SEw"
       }
     }
   ],
   "nodes": [
     {
-      "id": "HkRX_4rNv",
+      "id": "SyD4hOSEw",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 1
       },
       "type": "@/one-wire-bus"
     },
     {
-      "id": "S13PtESVw",
+      "id": "rJQrrtBED",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 2
       },
       "type": "@/ds18b20-devices"

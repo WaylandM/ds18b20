@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "description": "Data type representing one of more",
+      "description": "Data type representing one of more DS18B20 devices on a single one wire bus.",
       "id": "HJTMXNrVv",
       "label": "DEV",
       "position": {
@@ -22,8 +22,8 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "One Wire Bus.",
-      "id": "ryJkYVHNP",
+      "description": "One wire bus.",
+      "id": "ry9wHtrEv",
       "label": "OWB",
       "position": {
         "units": "slots",

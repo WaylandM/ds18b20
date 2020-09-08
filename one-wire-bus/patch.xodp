@@ -1,36 +1,37 @@
 {
+  "description": "Create a one wire bus.",
   "nodes": [
+    {
+      "description": "One wire bus.",
+      "id": "BJGPo_SEw",
+      "label": "OWB",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
     {
       "boundLiterals": {
         "__out__": "D2"
       },
       "description": "Board port number.",
-      "id": "BJDWdErVP",
+      "id": "BkqB_SBEP",
       "label": "PORT",
       "position": {
         "units": "slots",
         "x": 0,
-        "y": -5
+        "y": 0
       },
       "type": "xod/patch-nodes/input-port"
     },
     {
-      "description": "One Wire Bus.",
-      "id": "rJSzu4rVv",
-      "label": "OWB",
+      "id": "HJyn4BrEP",
       "position": {
         "units": "slots",
         "x": 0,
-        "y": -3
-      },
-      "type": "xod/patch-nodes/output-self"
-    },
-    {
-      "id": "rkKIP4rEw",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": -4
+        "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     }

@@ -33,6 +33,15 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "id": "rJLgUtBNv",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
       "description": "One or more DS18B20 temperature sensors on a single one wire bus.",
       "id": "rJQYqEHVP",
       "label": "DEV",
@@ -42,15 +51,6 @@
         "y": 0
       },
       "type": "@/input-ds18b20-devices"
-    },
-    {
-      "id": "rJrO5VBEv",
-      "position": {
-        "units": "slots",
-        "x": 0,
-        "y": 1
-      },
-      "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
       "description": "Number of devices on the one wire bus. Includes non-DS18B20 devices.",

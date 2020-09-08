@@ -1,17 +1,18 @@
 
-struct State {
-};
+node {
+    // Internal state variables defined at this level persists across evaluations
+    Number foo;
+    uint8_t bar = 5;
 
-{{ GENERATED_CODE }}
-
-void evaluate(Context ctx) {
-    // The node responds only if there is an input pulse
-    if (!isInputDirty<input_UPD>(ctx))
-        return;
-
-    // Get a pointer to the `Adafruit_BMP280` class instance
-    auto sensor = getValue<input_DEV>(ctx);
-    emitValue<output_PRESS>(ctx, sensor->readPressure());
-    emitValue<output_DONE>(ctx, 1);
-
+    void evaluate(Context ctx) {
+        bar += 42;
+        
+        if (isSettingUp()) {
+            // This run once
+            foo = (Number)(bar + 1);
+        }
+        
+        auto inValue = getValue<input_IN>(ctx);
+        emitValue<output_OUT>(ctx, inValue);
+    }
 }
