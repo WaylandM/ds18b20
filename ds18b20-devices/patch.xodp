@@ -1,7 +1,8 @@
 {
+  "description": "Create DS18B20 device(s) on a one wire bus.",
   "nodes": [
     {
-      "description": "Data type representing one of more DS18B20 devices on a single one wire bus.",
+      "description": "One of more DS18B20 devices on a single one wire bus.",
       "id": "HJTMXNrVv",
       "label": "DEV",
       "position": {

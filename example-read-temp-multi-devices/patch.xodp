@@ -1,0 +1,86 @@
+{
+  "comments": [
+    {
+      "content": "D: 0x28, 0x4F, 0x05, 0xB2, 0x3C, 0x19, 0x01, 0x6E",
+      "id": "SJAa96v4P",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 9
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "BkIo9pD4P",
+      "input": {
+        "nodeId": "ryfo9avVD",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HyEuq6P4P",
+        "pinKey": "SJeFPTw4P"
+      }
+    },
+    {
+      "id": "Sy2tqTv4P",
+      "input": {
+        "nodeId": "HyEuq6P4P",
+        "pinKey": "By28PpvVP"
+      },
+      "output": {
+        "nodeId": "rkFtq6PVD",
+        "pinKey": "HJLA5rUEv"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "Byxs2I6DVw": "05h",
+        "Hki3I6wVP": "4Fh",
+        "Hy62U6wEv": "19h",
+        "SJ5HvTDVP": "6Eh",
+        "Skn3I6wVw": "B2h",
+        "Sygn3I6PNv": "3Ch",
+        "r1yaITPVw": "01h",
+        "rkIn8pPEw": "28h"
+      },
+      "id": "HyEuq6P4P",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -1
+      },
+      "type": "@/get-temp"
+    },
+    {
+      "id": "rkFtq6PVD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -2
+      },
+      "type": "@/ds18b20-bus"
+    },
+    {
+      "id": "ryfo9avVD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}

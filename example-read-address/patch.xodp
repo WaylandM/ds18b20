@@ -1,0 +1,126 @@
+{
+  "links": [
+    {
+      "id": "ByMXj9IEv",
+      "input": {
+        "nodeId": "rJl7i5U4P",
+        "pinKey": "Bk4WgcUVD"
+      },
+      "output": {
+        "nodeId": "HkBDy9I4v",
+        "pinKey": "HJLA5rUEv"
+      }
+    },
+    {
+      "id": "Hy0bW1dEv",
+      "input": {
+        "nodeId": "ryw2g0PNv",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rJl7i5U4P",
+        "pinKey": "BJYreAvNw"
+      }
+    },
+    {
+      "id": "S1VFkcUVP",
+      "input": {
+        "nodeId": "SJJKy5L4w",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "H1cPJ5LND",
+        "pinKey": "SkFj94BNv"
+      }
+    },
+    {
+      "id": "S1pYJ9LED",
+      "input": {
+        "nodeId": "H1cPJ5LND",
+        "pinKey": "rJQYqEHVP"
+      },
+      "output": {
+        "nodeId": "HkBDy9I4v",
+        "pinKey": "HJLA5rUEv"
+      }
+    },
+    {
+      "id": "ryGY19UEP",
+      "input": {
+        "nodeId": "HJ-_1cUEw",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "H1cPJ5LND",
+        "pinKey": "rybnlrSVw"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "H1R-erSNP": "On Boot"
+      },
+      "id": "H1cPJ5LND",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "@/get-device-count"
+    },
+    {
+      "id": "HJ-_1cUEw",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HkBDy9I4v",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "@/ds18b20-bus"
+    },
+    {
+      "id": "SJJKy5L4w",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "boundLiterals": {
+        "Syi0b9I4v": "On Boot"
+      },
+      "id": "rJl7i5U4P",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "@/get-address"
+    },
+    {
+      "id": "ryw2g0PNv",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}

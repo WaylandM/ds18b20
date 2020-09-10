@@ -1,0 +1,3 @@
+{
+  "description": "Set resolution of all DS18B20 devices on the bus."
+}

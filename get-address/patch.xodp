@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "B1YgxcUNw",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Address of DS18B20 device.",
+      "id": "BJYreAvNw",
+      "label": "ADDR",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-string"
+    },
+    {
+      "description": "One or more DS18B20 temperature sensors on a single one wire bus.",
+      "id": "Bk4WgcUVD",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-ds18b20-devices"
+    },
+    {
+      "description": "Index",
+      "id": "H1Yug98Ev",
+      "label": "IDX",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Update.",
+      "id": "Syi0b9I4v",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on read of address.",
+      "id": "r1SGg7OEP",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}
