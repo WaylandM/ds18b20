@@ -1,6 +1,6 @@
 {
-  "description": "DS18B20 digital temperature sensor. Enables use of multiple DS18B20 devices on a single one-wire bus. Wraps  https://github.com/milesburton/Arduino-Temperature-Control-Library.",
+  "description": "DS18B20 digital temperature sensor. Enables use of multiple DS18B20 devices on a single one-wire bus. Wraps  https://github.com/milesburton/Arduino-Temperature-Control-Library and  https://github.com/PaulStoffregen/OneWire.",
   "license": "GNU Lesser General Public License v2.1",
   "name": "ds18b20",
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
