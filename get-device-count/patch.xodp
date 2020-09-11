@@ -1,6 +1,10 @@
 {
+  "description": "Count number of devices on the bus.",
   "nodes": [
     {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
       "description": "Update.",
       "id": "H1R-erSNP",
       "label": "UPD",
@@ -12,6 +16,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "Pulse when finished counting.",
       "id": "HyCBxBB4v",
       "label": "DONE",
       "position": {
@@ -22,7 +27,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "Number of DS18B20 temperature sensors on the one wire bus.",
+      "description": "Number of DS18B20 temperature sensors on the one-wire bus.",
       "id": "SkFj94BNv",
       "label": "Ntemp",
       "position": {
@@ -42,7 +47,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "One or more DS18B20 temperature sensors on a single one wire bus.",
+      "description": "One or more DS18B20 temperature sensors on a single one-wire bus.",
       "id": "rJQYqEHVP",
       "label": "DEV",
       "position": {
@@ -53,7 +58,7 @@
       "type": "@/input-ds18b20-devices"
     },
     {
-      "description": "Number of devices on the one wire bus. Includes non-DS18B20 devices.",
+      "description": "Number of devices on the one-wire bus. Includes non-DS18B20 devices.",
       "id": "rybnlrSVw",
       "label": "Ndev",
       "position": {

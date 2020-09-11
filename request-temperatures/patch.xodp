@@ -33,7 +33,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "One or more DS18B20 devices on a one wire bus.",
+      "description": "One or more DS18B20 devices on a one-wire bus.",
       "id": "r1wghpPNP",
       "label": "DEV",
       "position": {

@@ -1,7 +1,8 @@
 {
+  "description": "Get temperature of DS18B20 device with specified address.  ",
   "nodes": [
     {
-      "description": "One of more DS18B20 devices on a singe one wire bus.",
+      "description": "One of more DS18B20 devices on a singe one-wire bus.",
       "id": "By28PpvVP",
       "label": "DEV",
       "position": {
@@ -12,6 +13,7 @@
       "type": "@/input-ds18b20-devices"
     },
     {
+      "description": "3rd byte of address.",
       "id": "Byxs2I6DVw",
       "label": "ADDR2",
       "position": {
@@ -31,6 +33,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "description": "Pulse on read of temperature.",
       "id": "HJycP6DVD",
       "label": "DONE",
       "position": {
@@ -41,6 +44,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "2nd byte of address.",
       "id": "Hki3I6wVP",
       "label": "ADDR1",
       "position": {
@@ -51,6 +55,7 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "description": "6th byte of address.",
       "id": "Hy62U6wEv",
       "label": "ADDR5",
       "position": {
@@ -61,6 +66,7 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "description": "8th byte of address.",
       "id": "SJ5HvTDVP",
       "label": "ADDR7",
       "position": {
@@ -71,8 +77,9 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "description": "Temperature in degrees Fahrenheit.",
       "id": "SJeFPTw4P",
-      "label": "TempC",
+      "label": "TempF",
       "position": {
         "units": "slots",
         "x": 0,
@@ -81,6 +88,7 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "4th byte of address.",
       "id": "Skn3I6wVw",
       "label": "ADDR3",
       "position": {
@@ -91,6 +99,7 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "description": "5th byte of address.",
       "id": "Sygn3I6PNv",
       "label": "ADDR4",
       "position": {
@@ -101,6 +110,7 @@
       "type": "xod/patch-nodes/input-byte"
     },
     {
+      "description": "7th byte of address.",
       "id": "r1yaITPVw",
       "label": "ADDR6",
       "position": {
@@ -125,6 +135,7 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
+      "description": "1st byte of address.",
       "id": "rkIn8pPEw",
       "label": "ADDR0",
       "position": {

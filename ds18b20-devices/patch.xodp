@@ -1,8 +1,8 @@
 {
-  "description": "Create DS18B20 device(s) on a one wire bus.",
+  "description": "Create DS18B20 device(s) on a one-wire bus.",
   "nodes": [
     {
-      "description": "One of more DS18B20 devices on a single one wire bus.",
+      "description": "One of more DS18B20 devices on a single one-wire bus.",
       "id": "HJTMXNrVv",
       "label": "DEV",
       "position": {
@@ -23,7 +23,7 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "One wire bus.",
+      "description": "One-wire bus.",
       "id": "ry9wHtrEv",
       "label": "OWB",
       "position": {

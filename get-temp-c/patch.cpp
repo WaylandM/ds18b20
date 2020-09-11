@@ -16,7 +16,7 @@ node {
         devAddr[5] = getValue<input_ADDR5>(ctx);
         devAddr[6] = getValue<input_ADDR6>(ctx);
         devAddr[7] = getValue<input_ADDR7>(ctx);
-        
+
         emitValue<output_TempC>(ctx, sensors->getTempC(devAddr));
         emitValue<output_DONE>(ctx, 1);
 

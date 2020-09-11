@@ -1,4 +1,5 @@
 {
+  "description": "Get address of DS18B20 device at specified index (IDX).",
   "nodes": [
     {
       "id": "B1YgxcUNw",
@@ -21,7 +22,7 @@
       "type": "xod/patch-nodes/output-string"
     },
     {
-      "description": "One or more DS18B20 temperature sensors on a single one wire bus.",
+      "description": "One or more DS18B20 temperature sensors on a single one-wire bus.",
       "id": "Bk4WgcUVD",
       "label": "DEV",
       "position": {
@@ -32,7 +33,7 @@
       "type": "@/input-ds18b20-devices"
     },
     {
-      "description": "Index",
+      "description": "Index of device on bus. Choose 0 for first device on bus.",
       "id": "H1Yug98Ev",
       "label": "IDX",
       "position": {

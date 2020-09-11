@@ -1,8 +1,8 @@
 {
-  "description": "Create a one wire bus.",
+  "description": "Create a one-wire bus.",
   "nodes": [
     {
-      "description": "One wire bus.",
+      "description": "One-wire bus.",
       "id": "BJGPo_SEw",
       "label": "OWB",
       "position": {

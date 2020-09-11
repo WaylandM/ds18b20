@@ -1,0 +1,149 @@
+{
+  "description": "Get temperature of DS18B20 device with specified address.  Ask all DS18B20 devices on the bus to perform a temperature conversion using request-temperatures node.",
+  "nodes": [
+    {
+      "description": "One of more DS18B20 devices on a singe one-wire bus.",
+      "id": "By28PpvVP",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-ds18b20-devices"
+    },
+    {
+      "description": "3rd byte of address.",
+      "id": "Byxs2I6DVw",
+      "label": "ADDR2",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "id": "HJmiITPVP",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Pulse on read of temperature.",
+      "id": "HJycP6DVD",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "2nd byte of address.",
+      "id": "Hki3I6wVP",
+      "label": "ADDR1",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "6th byte of address.",
+      "id": "Hy62U6wEv",
+      "label": "ADDR5",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "8th byte of address.",
+      "id": "SJ5HvTDVP",
+      "label": "ADDR7",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "Temperature in degrees Celsius.",
+      "id": "SJeFPTw4P",
+      "label": "TempC",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "4th byte of address.",
+      "id": "Skn3I6wVw",
+      "label": "ADDR3",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "5th byte of address.",
+      "id": "Sygn3I6PNv",
+      "label": "ADDR4",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "7th byte of address.",
+      "id": "r1yaITPVw",
+      "label": "ADDR6",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
+      "description": "Update",
+      "id": "rJ3j86vED",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "1st byte of address.",
+      "id": "rkIn8pPEw",
+      "label": "ADDR0",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-byte"
+    }
+  ]
+}

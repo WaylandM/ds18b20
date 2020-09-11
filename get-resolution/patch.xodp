@@ -1,3 +1,64 @@
 {
-  "description": "Read global resolution."
+  "description": "Read global resolution.",
+  "nodes": [
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Update.",
+      "id": "B1x_Bft4v",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on read of global resolution.",
+      "id": "BkTdrfF4v",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "HkyNrMFVv",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__in__": "00d"
+      },
+      "description": "Resolution (bits): 9d = 9 bits, 10d = 10 bits, 11d = 11 bits, 12d = 12 bits.",
+      "id": "SJfL_GYNP",
+      "label": "RES",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-byte"
+    },
+    {
+      "description": "One or more DS18B20 devices on a single one-wire bus.",
+      "id": "ryY4HGFNv",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "@/input-ds18b20-devices"
+    }
+  ]
 }

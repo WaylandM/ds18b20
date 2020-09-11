@@ -1,3 +1,64 @@
 {
-  "description": "Set resolution of all DS18B20 devices on the bus."
+  "description": "Set resolution of all DS18B20 devices on the bus. ",
+  "nodes": [
+    {
+      "id": "BJllUMFNw",
+      "position": {
+        "units": "slots",
+        "x": -15,
+        "y": -2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "12d"
+      },
+      "description": "Resolution (bits). Options: 9d = 9 bits, 10d = 10 bits, 11d = 11 bits, 12d = 12 bits. If new resolution is out of range, 9 bits is used.",
+      "id": "Hkoz8zYVv",
+      "label": "RES",
+      "position": {
+        "units": "slots",
+        "x": -14,
+        "y": -3
+      },
+      "type": "xod/patch-nodes/input-byte"
+    },
+    {
+      "description": "One or more DS18B20 devices on a single one-wire bus.",
+      "id": "HydxLfFEP",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": -15,
+        "y": -3
+      },
+      "type": "@/input-ds18b20-devices"
+    },
+    {
+      "description": "Pulse when resolution set.",
+      "id": "Syq-uzF4D",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": -15,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Update.",
+      "id": "rymyuGtVw",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": -13,
+        "y": -3
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
 }

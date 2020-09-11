@@ -1,4 +1,21 @@
 {
+  "comments": [
+    {
+      "content": "The get-address node has index (IDX) set to 0, so it will read the address of the first device on the bus.",
+      "id": "HJRPzXYNP",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 7
+      }
+    }
+  ],
+  "description": "This patch will read the address of the first (index 0) DS18B20 device on the bus.",
   "links": [
     {
       "id": "ByMXj9IEv",

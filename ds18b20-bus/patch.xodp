@@ -1,4 +1,5 @@
 {
+  "description": "Create a one-wire bus with one or more DS18B20 devices.",
   "links": [
     {
       "id": "S1aRqS84w",
