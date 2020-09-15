@@ -7,7 +7,7 @@ node {
 
         auto sensors = getValue<input_DEV>(ctx);
         
-        sensors->setResolution(getValue<input_DEV>(ctx));
+        sensors->setResolution(getValue<input_RES>(ctx));
 
         emitValue<output_DONE>(ctx, 1);
     }
